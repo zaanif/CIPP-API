@@ -18,3 +18,4 @@ jobs:
           app-name: func-ran-cipp-prod-aue-001
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          respect-funcignore: true
